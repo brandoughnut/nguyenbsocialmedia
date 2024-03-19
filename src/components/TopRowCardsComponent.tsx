@@ -4,7 +4,7 @@ import '../App.css';
 const TopRowCardsComponent = (prop:any) => {
   return (
     <div>
-      <div className={`${prop.card} text-center`} style={{borderBottomLeftRadius:'5px', borderBottomRightRadius:'5px'}}>
+      <div className={`${prop.card} text-center`} style={{borderRadius:'5px'}}>
         <div className={`h-[6px] ${prop.topBorder}`} style={{borderTopLeftRadius:'5px', borderTopRightRadius:'5px'}}></div>
         
         <p className={prop.text}><img className='inline me-2 my-6' src={prop.logo} alt='social media logo'/>{prop.username}</p>
