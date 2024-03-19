@@ -57,8 +57,10 @@ const HeaderComponent = () => {
               <p className={text2}>Total Followers: 23,064</p>
             </div>
             <div className="grid justify-end my-auto">
-              <div className={toggleBtn}>
-                <span className="me-3 inline">Dark Mode</span>
+              <div className={`${toggleBtn} grid grid-cols-2`}>
+                <div className="my-auto">
+                  <span className="me-3">Dark Mode</span>
+                </div>
                 <label className="switch">
                   <input type="checkbox" />
                   <span className="slider" onClick={handleToggle}></span>
