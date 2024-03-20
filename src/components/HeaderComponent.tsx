@@ -46,11 +46,9 @@ const HeaderComponent = () => {
     setToggle(!toggle);
   }
 
-
-
   return (
     <div>
-      <div className={`${BG}`}>
+      <div className={`${BG} h-auto`}>
         <div className={`${BGTop} px-6 xl:px-[165px]`}>
           <div className="grid xl:grid-cols-2 py-10">
             <div>
@@ -157,7 +155,7 @@ const HeaderComponent = () => {
             <div className="w-full mx-auto">
                 <BottomRowCardsComponent statsColor='statsTextDown' statLogo={down} stats='19%' logo={youtube} followers='107' type='Likes' text={text2} headText={headText} card={card}/>
             </div>
-            <div className="w-full mx-auto">
+            <div className="w-full mx-auto mb-[45px] xl:mb-[75px]">
                 <BottomRowCardsComponent statsColor='statsTextDown' statLogo={down} stats='12%' logo={youtube} followers='1407' type='Total Views' text={text2} headText={headText} card={card}/>
             </div>
           </div>

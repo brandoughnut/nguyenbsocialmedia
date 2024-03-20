@@ -1,3 +1,10 @@
+Name: Brandon Nguyen
+Date: 3/20/2024
+Lab Name: Social Media Dashboard in React
+Brief Description: Recreating a social media dashboard using react typescript
+Peer Reviewer: 
+Peer Review Comments: 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
