@@ -48,7 +48,7 @@ const HeaderComponent = () => {
   return (
     <div>
       <div>
-        <div className={`${BGTop} px-6 xl:px-[165px]`}>
+        <div className={`${BGTop} h-[235px] xl:h-[216px] px-6 xl:px-[165px]`}>
           <div className="grid xl:grid-cols-2 py-10">
             <div>
               <h1 className={`${headText} text-[27px] leading-7`}>

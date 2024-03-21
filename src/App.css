@@ -97,9 +97,8 @@
 
 .darkBGTop{
   background-color: hsl(232, 19%, 15%);
-  height: 216px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .darkCard{
@@ -120,9 +119,8 @@
 
 .lightBGTop{
   background-color: hsl(225, 100%, 98%);
-  height: 216px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 /* The switch - the box around the slider */
