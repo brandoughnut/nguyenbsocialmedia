@@ -13,7 +13,6 @@ const HeaderComponent = () => {
 
   const [toggle, setToggle] = useState<boolean>(false);
   const [BGTop, setBGTop] = useState<string>('darkBGTop');
-  const [BG, setBG] = useState<string>('darkBG');
   const [headText, setHeadText] = useState<string>('darkHeadText');
   const [text2, setText2] = useState<string>('darkText2');
   const [toggleBtn, setToggleBtn] = useState<string>('darkToggleBtn');
@@ -24,20 +23,20 @@ const HeaderComponent = () => {
 
     if(toggle === false){
       setBGTop('darkBGTop');
-      setBG('darkBG');
       setHeadText('darkHeadText');
       setText2('darkText2');
       setToggleBtn('darkToggleBtn');
       setCard('darkCard');
       setHr('hrDark');
+      document.body.style.backgroundColor = '#1E202A';
     }else{
       setBGTop('lightBGTop');
-      setBG('lightBG');
       setHeadText('lightHeadText');
       setText2('lightText2');
       setToggleBtn('lightToggleBtn');
       setCard('lightCard');
       setHr('hrLight');
+      document.body.style.backgroundColor = '#FFFFFF';
     }
 
   }, [toggle])
@@ -48,7 +47,7 @@ const HeaderComponent = () => {
 
   return (
     <div>
-      <div className={`${BG} h-auto`}>
+      <div>
         <div className={`${BGTop} px-6 xl:px-[165px]`}>
           <div className="grid xl:grid-cols-2 py-10">
             <div>
