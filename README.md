@@ -2,8 +2,8 @@ Name: Brandon Nguyen
 Date: 3/20/2024
 Lab Name: Social Media Dashboard in React
 Brief Description: Recreating a social media dashboard using react typescript
-Peer Reviewer: 
-Peer Review Comments: 
+Peer Reviewer: Aidan Younathan
+Peer Review Comments: This is really good, there wasnt anything I could see that didnt work. You definatly could have used some components and tailwind utility classes but everything you did looks great, I thought it was cool that you used props on this and one last thing that you could have done was used the dark: class name thing to toggle the dark(I put the vid in slack, lmk if u want me to dm it to you) and like modes but the way you have it works great and it all looks like the figma, Great Job dude!
 
 # Getting Started with Create React App
 
